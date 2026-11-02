@@ -3,13 +3,13 @@
 	"id": "pvp-assist",
 	"version": "${version}",
 	"name": "PvP Assist",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "PVP assistant",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/pvp-assist/icon.png",
