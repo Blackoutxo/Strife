@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "pvp-assist",
+	"id": "strife",
 	"version": "${version}",
-	"name": "PvP Assist",
+	"name": "Strife",
 	"description": "PVP assistant",
 	"authors": [
 		"Me!"
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"me.blackout.assist.PvPAssist"
+			"me.blackout.assist.Strife"
 		]
 	},
 	"mixins": [
