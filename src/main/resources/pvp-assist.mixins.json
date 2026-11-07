@@ -1,9 +1,9 @@
 {
 	"required": true,
 	"package": "me.blackout.assist.mixin",
-	"compatibilityLevel": "JAVA_25",
+	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"PacketListenerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,19 +1,18 @@
 package me.blackout.assist.utils.input;
 
 import com.mojang.blaze3d.platform.InputConstants;
-import me.blackout.assist.PvPAssist;
+import me.blackout.assist.Strife;
 import me.blackout.assist.gui.GUI;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
 import net.minecraft.client.KeyMapping;
-import net.minecraft.network.chat.Component;
 
-import static me.blackout.assist.PvPAssist.mc;
+import static me.blackout.assist.Strife.mc;
 
 public class Input {
     public static void registerKey() {
         KeyMapping.Category CATEGORY = KeyMapping.Category.register(
-                PvPAssist.id("pvp_assist")
+                Strife.id("pvp_assist")
         );
 
         KeyMapping openGUIKey = KeyMappingHelper.registerKeyMapping(

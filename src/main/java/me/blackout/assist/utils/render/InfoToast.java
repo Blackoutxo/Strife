@@ -19,7 +19,7 @@ import org.jspecify.annotations.NonNull;
 
 import java.awt.*;
 
-import static me.blackout.assist.PvPAssist.mc;
+import static me.blackout.assist.Strife.mc;
 
 public class InfoToast implements Toast {
     private static final int TITLE_COLOR = Color.HSBtoRGB(214, 76, 100);
